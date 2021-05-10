@@ -1,0 +1,52 @@
+/* flex with space between for nav */
+.header{
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    color: wheat;
+
+}
+.header  a{
+    margin-top: 12px;
+    text-decoration: none;
+    color: wheat;
+}
+
+/* style with no flex for description */
+
+.description{
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/food.png");
+    color: wheat;
+    text-align: center;
+    padding: 30px;
+    }
+/* flex with space evenly for grid */
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+    background-color: wheat;
+    margin-top: -20px;
+    margin-bottom: -0px;
+}
+
+grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: seashell;
+
+    width: 400px;
+    font-family: fantasy;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: wheat;
+}
